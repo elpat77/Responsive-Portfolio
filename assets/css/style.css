@@ -205,10 +205,20 @@ input {
 } */
 
 footer {
-    display: flex;
+    position:fixed;
+    width: 100%;
+    bottom:0;
     color: #cccccc;
-    align-items:flex-end;
+    text-align:center;
     justify-content: center;
     padding: 5px;
     font-size: 12px;
 }
+
+@media screen and (max-width: 640px) {
+    .container {
+    display: list-item;
+    width: 50%;
+    }
+}
+

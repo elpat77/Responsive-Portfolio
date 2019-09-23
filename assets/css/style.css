@@ -224,17 +224,16 @@ footer {
 
 @media screen and (max-width: 640px) {
     .box1 {
-    width: 50%;
+    width: 80%;
     height:100%;
-    min-width: 320px;
     }
 }
 
 @media screen and (max-width: 640px) {
     .card-image {
-    position: relative;
-    padding: 15px;
-    min-width: 300px;
+    min-width: 340px;
+    margin-left: auto;
+    margin-right: auto;
     }
 }
 
@@ -245,3 +244,17 @@ footer {
     margin-bottom: 15px;
     }
 }
+@media screen and (max-width: 768px) {
+    .box1 {
+    width: 80%;
+    height:100%;
+    }
+}
+
+@media screen and (max-width: 980px) {
+    .box1 {
+    width: 80%;
+    height:100%;
+    }
+}
+

@@ -32,7 +32,7 @@ header {
     background-color: #4aaaa5;
     font-size: 2rem;
     height:10vh;
-    width: 30%;
+    padding:5px;
     text-align: center;
     line-height: 8vh;
     font-family: 'Georgia', Times, Times New Roman, serif;
@@ -279,9 +279,21 @@ footer {
     height:100%;
     }
 }
+@media screen and (max-width: 768px) {
+    .box0 {
+    width: 80%;
+    height:100%;
+    }
+}
 
 @media screen and (max-width: 980px) {
     .box1 {
+    width: 80%;
+    height:100%;
+    }
+}
+@media screen and (max-width: 980px) {
+    .box0 {
     width: 80%;
     height:100%;
     }

@@ -218,7 +218,30 @@ footer {
 @media screen and (max-width: 640px) {
     .container {
     display: list-item;
-    width: 50%;
+    width: 100%;
     }
 }
 
+@media screen and (max-width: 640px) {
+    .box1 {
+    width: 50%;
+    height:100%;
+    min-width: 320px;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .card-image {
+    position: relative;
+    padding: 15px;
+    min-width: 300px;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .about-me{
+    height:100%;
+    padding: 15px;
+    margin-bottom: 15px;
+    }
+}

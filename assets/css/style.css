@@ -11,32 +11,42 @@ body{
 }
 
 header {
+    position:relative;
     height:10vh;
     background: #ffffff;
-    display: flex;
-    align-items:center;
     justify-content: space-between;
     border-bottom: 2px solid #cccccc;
     
 }
 
-h1{
+.box0 {
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.card-name{
     color:#ffffff;
     float:left;
     background-color: #4aaaa5;
-    padding: 25px;
+    font-size: 2rem;
+    height:10vh;
+    width: 30%;
+    text-align: center;
+    line-height: 8vh;
     font-family: 'Georgia', Times, Times New Roman, serif;
 }
 
-nav{
+.card-links{
     float:right;
+    font-size: 1rem;
+    line-height: 8vh;
 }
 
 a{
     color: #777777;
-    font-size: 1rem;
     text-decoration: none;
-    line-height: 8vh;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
 
@@ -60,16 +70,10 @@ p:active{
 }
 
 main {
+    position:relative;
     min-height:80vh;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-    position:relative;
-}
-
-.box0 {
-    width: 960px;
-    margin-left: auto;
-    margin-right: auto;
-
+    
 }
 
 .box1 {
@@ -213,6 +217,31 @@ footer {
     justify-content: center;
     padding: 5px;
     font-size: 12px;
+}
+@media screen and (max-width: 640px) {
+    .box0 {
+        width: 480px;
+        height: 100%;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .card-name {
+        width: 100%;
+        height:100%;
+        font-size: 1.5rem;
+        height:5vh;
+        line-height: 4vh;
+    }
+}
+@media screen and (max-width: 640px) {
+    .card-links {
+        width: 100%;
+        height:100%;
+        height: 5vh;
+        text-align: center;
+        line-height: 4vh;
+    }
 }
 
 @media screen and (max-width: 640px) {

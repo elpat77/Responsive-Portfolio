@@ -34,6 +34,7 @@ header {
     height:10vh;
     padding:5px;
     text-align: center;
+    justify-content: center;
     line-height: 8vh;
     font-family: 'Georgia', Times, Times New Roman, serif;
 }
@@ -223,9 +224,6 @@ footer {
         width: 480px;
         height: 100%;
     }
-}
-
-@media screen and (max-width: 640px) {
     .card-name {
         width: 100%;
         height:100%;
@@ -233,8 +231,6 @@ footer {
         height:5vh;
         line-height: 4vh;
     }
-}
-@media screen and (max-width: 640px) {
     .card-links {
         width: 90%;
         height:100%;
@@ -242,31 +238,21 @@ footer {
         text-align: center;
         line-height: 4vh;
     }
-}
-
-@media screen and (max-width: 640px) {
     .container {
-    display: list-item;
-    width: 100%;
-    }
-}
+        display: list-item;
+        width: 100%;
+        }
 
-@media screen and (max-width: 640px) {
     .box1 {
-    width: 80%;
-    height:100%;
-    }
-}
+        width: 80%;
+        height:100%;
+        }
 
-@media screen and (max-width: 640px) {
     .card-image {
     min-width: 340px;
     margin-left: auto;
     margin-right: auto;
     }
-}
-
-@media screen and (max-width: 640px) {
     .about-me{
     height:100%;
     padding: 15px;
@@ -278,8 +264,7 @@ footer {
     width: 80%;
     height:100%;
     }
-}
-@media screen and (max-width: 768px) {
+
     .box0 {
     width: 80%;
     height:100%;
@@ -291,8 +276,7 @@ footer {
     width: 80%;
     height:100%;
     }
-}
-@media screen and (max-width: 980px) {
+
     .box0 {
     width: 80%;
     height:100%;
